@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background color and center the content */
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the page heading */
+#page-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+#page-heading i {
+  margin-right: 10px;
+}
+
+/* Style the contact list container */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px; /* Add space above the contact list */
+}
+
+/* Style the contact list items */
+li {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style the contact name and phone */
+li p {
+  margin: 5px 0;
+}
+
+/* Style the form */
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form input {
+  margin-right: 5px;
+  padding: 5px;
+}
+
+form button {
+  padding: 5px 10px;
+}
+
+/* Style the external font-awesome icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
